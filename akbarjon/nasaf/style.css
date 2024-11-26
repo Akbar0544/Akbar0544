@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(213, 212, 212);
+}
+.chap {
+    width: 750px;
+    height: 700px;
+
+}
+.asos {
+    display: flex;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.rasm {
+    margin-top: 20px;
+    height: 180px;
+    width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+img{ 
+    width: 250px;
+    height: 160px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.matn {
+    width: 480px;
+    height: 140px;
+   margin-left: 20px;
+   margin-top: 10px;
+}
+.br {
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+.br2 {
+    width: 280px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.ona {
+    margin-left: 30px;
+}
+.ona2 {
+    margin-left: 60px;
+}
+.asos3 {
+    width: 280px;
+    height: 380px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+   
+   
+
+}
+.pic  {
+    width: 260px;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+    
+    
+
+
+} 
+.ichi> a> button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+}
+.but1 >a >button {
+    width: 350px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: greenyellow;
+    margin-left: 200px;
+    margin-top: 30px;
+    border: 1px solid greenyellow;
+}
+.but2  >button {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid white ;
+    margin-top: 20px; 
+    margin-left: 25px;
+}

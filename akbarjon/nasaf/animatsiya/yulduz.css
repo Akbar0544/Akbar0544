@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body {
+  background-color: rgb(18, 17, 17);
+  animation-name: body;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;  
+}
+.ota{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.fa-moon{
+    font-size: 250px;
+    animation-name: oy;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-delay: 1s
+
+}
+.yulduz2{
+    margin-top: 100px;
+ }
+ .yulduz3 {
+     margin-top: 200px;
+ }
+
+.fa-star{
+   font-size: 50px;
+   color: rgb(229, 249, 3);
+   animation-name: svg;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-delay: 1s;
+   
+}
+.ik{
+    color: gold;
+    animation-name: svg1;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-delay: 1s;      
+}
+.uch{
+    animation-name: svg2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.tor{
+    animation-name: svg3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.bew{
+    animation-name: svg4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.olt{
+    animation-name: svg5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.yet{
+    animation-name: svg6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.sak{
+    animation-name: svg7;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.toq{
+    animation-name: svg8;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.on{
+    animation-name: svg9;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.onb{
+    animation-name: svg10;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.oni{
+    animation-name: svg11;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes oy{
+    0%{ color:  yellow;}
+    20%{ color: blueviolet;}
+    40%{color: red;}
+    60%{color: blue;}
+    80%{color: orange;}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+
+
+
+@keyframes svg {
+    0%{ color:  yellow;}
+    20%{ color: blueviolet;}
+    40%{color: red;}
+    60%{color: blue;}
+    80%{color: orange;}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes body {
+    0%{background-color:  rgb(5, 5, 5);}
+    10%{background-color:  rgb(5, 5, 5);}
+    100%{ background-color: skyblue;}
+}
+@keyframes svg1 {
+    0%{ color:  yellow;}
+    20%{ color:  pink;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg2 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg3 {
+    0%{ color:  white;}
+    20%{ color: rgb(102, 199, 240);}
+    40%{color: rgb(94, 202, 78);}
+    60%{color: red;}
+    80%{color: rgb(4, 4, 21);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg4 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg5 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg6 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg7 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg8 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg9 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg9 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg10 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes svg11 {
+    0%{ color:  white;}
+    20%{ color: blue;}
+    40%{color: black;}
+    60%{color: red;}
+    80%{color: rgb(14, 14, 245);}
+    100%{ color: white;}
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, 800px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+
+
+

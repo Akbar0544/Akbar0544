@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .kard {
+        width: 400px;
+        aspect-ratio: 1 / 0.7;
+        border-radius: 8px;
+        position: relative;
+        cursor: pointer;
+        margin-top: 100px;
+        margin-left: 500px;
+    }
+    .kard .image {
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+    }
+    .kard .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 90%;
+        border-radius: inherit;
+        transition: 0.5s ease-in-out;
+    }
+    .kard::after{
+        content: "";
+        position: absolute;
+        inset: 0;
+        border: 2px solid white;
+        border-radius: inherit;
+        opacity: 0;
+        transition: 0.4s ease-in-out;
+    } 
+    .kard:hover img {
+        filter: grayscale(1) brightness(0.4);
+    }
+    .kard:hover::after{
+        opacity: 1;
+        inset: 20px;
+    }
+    .content {
+        width: 60%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="kard">
+        <div class="image">
+            <img src="4.jpg" alt="">
+        </div>
+        <div class="content">
+           
+        </div>
+    </div>
+</body>
+</html>

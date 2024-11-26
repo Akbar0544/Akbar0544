@@ -1,0 +1,43 @@
+body{
+    background-color: skyblue;
+    animation-name: body;
+    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+}
+.aos{
+    position: relative;
+}
+.sariq{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    margin-left: 800px;
+    margin-top: 300px;
+    background-color: gold;
+    position: relative;
+}
+.qora {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    left: -800px;
+    animation-name: sariq;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+@keyframes sariq{
+    0%{transform: translate(1px); background-color: black;}
+    50%{ background-color: darkgray;}
+
+    100%{transform: translate(2400px); background-color: darkgray;}
+}
+@keyframes body{
+    0%{background-color: skyblue;}
+    50%{background-color: black;}
+    70%{background-color: skyblue;}
+    100%{background-color: skyblue;}
+}

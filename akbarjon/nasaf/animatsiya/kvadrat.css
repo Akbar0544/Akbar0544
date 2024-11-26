@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+body {
+    background-color: black;
+}
+.asos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.qut1 {
+  width: 400px;
+  height: 300px;
+  background-color: red;
+  border: 1px solid red;
+}
+.qut2 {
+    width: 400px;
+    height: 300px;
+    background-color: orange;
+    border: 1px solid orange;
+  }
+  .qut3 {
+    width: 400px;
+    height: 300px;
+    background-color: yellow;
+    border: 1px solid yellow ;
+  }
+  .qut4{
+    width: 400px;
+    height: 300px;
+    background-color:green;
+    border: 1px solid green;
+  }
+  .qut5 {
+    width: 400px;
+    height: 300px;
+    background-color:greenyellow;
+    border: 1px solid greenyellow;
+  }
+  .qut6 {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(168, 205, 113);
+    border: 1px solid rgb(162, 196, 111);
+  }

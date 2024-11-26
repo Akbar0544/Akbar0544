@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(182, 180, 180);
+}
+.ota {
+    display: flex;
+
+}
+.chap {
+    width: px;
+    height: 1401px;
+    background-color: white;
+    margin: 0px 0px 0px;
+    margin-top: 10px;
+    
+}
+.mat {
+    width: 826px;
+    height: 99px;
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.rasm {
+    margin-top: 20px;
+}
+ .rasm >img {
+    width: 826px;
+    height: 550px;
+    margin-top: 20px;
+    margin-left:20px;
+
+}
+.matn {
+    width: 826px;
+    height: 51px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.matn1 {
+    width: 826px;
+    height: 76px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.matn2 {
+    width: 826px;
+    height: 102px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logotip {
+    display: flex;
+    width: 48px;
+    margin-left: 260px;
+    gap: 20px;
+}
+.w > img {
+    width: 48px;
+    height: 48px;
+    
+
+}
+.br {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.br2 {
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.ona3 {
+    margin-left: 30px;
+}
+.ona2 {
+    margin-left: 60px;
+}
+.asos3 {
+    width: 300px;
+    height: 390px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.pic >img {
+    width: 260px;
+    height: 156px;
+    margin-top: 20px;
+} 
+.ichi> a> button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+}
+.as3 {
+    width: 866px;
+    height: 1065px;
+   background-color: white;
+   display: flex;
+   gap: 50px;
+   flex-wrap: wrap ;
+   border-radius: 10px;
+   
+}
+
+.e1 {
+    width: 408px;
+    height: 317px;
+    background-color: darkgray;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.as3 img {
+    width: 408px;
+    height: 208px;
+    border-radius: 10px 10px 0px 0px;
+}
+.logo {
+    width: 866px;
+    height: 50px;
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+.r2 {
+    margin-left: 20px;
+}
+.r1 img {
+    width: 20px;
+    height: 21px;
+}
+.ota {
+    margin-left: 350px;
+}
+.asadbe {
+   margin-left: 350px;
+   margin-top: 30px;
+}
+.ichi {
+    margin-left: px;
+}
+.pic {
+    margin-left: px;
+}
+.ahmad {
+    margin-left: 30px;
+}
